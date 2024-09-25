@@ -1,0 +1,68 @@
+body{
+    font-family: "Roboto";
+    color: #434455;
+    background-color: #ffffff;
+}
+
+.logo{
+    color: #4D5AE5;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+
+.logo-first{
+    color: #434455;
+}
+
+.logo-first:active,
+.logo-first:hover{
+    text-decoration: underline;
+    color: #404bbf;
+}
+
+.ul{
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.link{
+    color: #434455;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+.link:hover{
+    color: #404bbf;
+}
+
+.button{
+    background-color:#4D5AE5;
+    line-height: 1.5;
+}
+
+.button:hover{
+    background-color: #404bbf;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 56px;
+    color: #ffffff;
+    background-color: #2e2f42;
+    line-height: 1;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.title-item{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+}
