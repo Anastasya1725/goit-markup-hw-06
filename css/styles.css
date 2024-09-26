@@ -46,6 +46,14 @@ body{
     letter-spacing: 0.02em;
 }
 
+.link-li{
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
 
 .link-first:hover,
 .link-first:focus{
