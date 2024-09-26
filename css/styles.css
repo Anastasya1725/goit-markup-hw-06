@@ -1,5 +1,5 @@
 body{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
 }
@@ -12,6 +12,7 @@ body{
     text-decoration: none;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 
 }
 
@@ -21,9 +22,10 @@ body{
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
-.logo-first:active,
+.logo-first:focus,
 .logo-first:hover{
     text-decoration: underline;
     color: #404bbf;
@@ -40,27 +42,34 @@ body{
     color: #434455;
     text-decoration: none;
     line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.02em;
 }
 
-.link:hover{
+.link:hover,
+.link:focus{
     color: #404bbf;
 }
 
 .button{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
     background-color:#4D5AE5;
     line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
-.button:hover{
+.button:hover,
+.button:focus{
     background-color: #404bbf;
 }
 
-.title{
-    font-weight: 700;
-    font-size: 56px;
+.box{
     color: #ffffff;
     background-color: #2e2f42;
-    line-height: 1;
 }
 
 .text{
@@ -84,6 +93,7 @@ body{
     color: #F4F4FD;
     background-color: #2e2f42;
     letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 
 .logo-first-item{
@@ -100,4 +110,23 @@ body{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+}
+
+.st3{
+    background-color: #F4F4FD;
+}
+
+.link-item{
+    background-color: #ffffff;
+}
+
+.title{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.add{
+    font-style: normal;
 }
