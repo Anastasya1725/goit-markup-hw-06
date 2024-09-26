@@ -39,19 +39,13 @@ body{
 }
 
 .link{
-    color: #434455;
     text-decoration: none;
-    line-height: 1.5;
-    font-size: 16px;
-    letter-spacing: 0.02em;
-}
-
-.link-first{
     color: #2e2f42;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
 
 .link-first:hover,
 .link-first:focus{
