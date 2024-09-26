@@ -54,6 +54,11 @@ body{
     text-decoration: none;
 }
 
+.link-li:hover,
+.link-li:focus{
+    color: #404bbf;
+}
+
 
 .link-first:hover,
 .link-first:focus{
