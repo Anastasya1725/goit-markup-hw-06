@@ -46,6 +46,10 @@ body{
     letter-spacing: 0.02em;
 }
 
+.link-first{
+    color: #2e2f42;
+}
+
 .link:hover,
 .link:focus{
     color: #404bbf;
@@ -112,7 +116,7 @@ body{
     letter-spacing: 0.02em;
 }
 
-.st3{
+.box-item{
     background-color: #F4F4FD;
 }
 
