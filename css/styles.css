@@ -31,12 +31,12 @@ body{
     color: #404bbf;
 }
 
-.menu{
+menu{
     gap: 40px;
     padding: 24px 0;
 }
 
-.ul{
+.ul-menu{
     display: flex;
     align-items: center;
     padding-left: 0;
@@ -213,6 +213,7 @@ button{
 
 .link-item{
     border-radius: 0 0 4px 4px;
+    width: calc((100% - 72px) / 4);
 }
 
 .title{
@@ -316,7 +317,6 @@ img{
     list-style-type: none;
     display: flex;
     gap: 24px;
-    width: calc( ( 100% - 72px) /4);
 }
 
 .name{
