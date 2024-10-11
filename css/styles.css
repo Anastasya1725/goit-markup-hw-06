@@ -31,10 +31,6 @@ body{
     color: #404bbf;
 }
 
-menu{
-    gap: 40px;
-    padding: 24px 0;
-}
 
 .ul-menu{
     display: flex;
@@ -44,6 +40,8 @@ menu{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    gap: 40px;
+    padding: 24px 0;
 }
 
 .ul-text{
