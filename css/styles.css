@@ -13,7 +13,7 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase; 
-    padding-right: 76px;
+    margin-right: 76px;
 }
 
 .logo-first{
@@ -29,6 +29,11 @@ body{
 .logo-first:hover{
     text-decoration: underline;
     color: #404bbf;
+}
+
+.menu{
+    gap: 40px;
+    padding: 24px 0;
 }
 
 .ul{
@@ -51,7 +56,6 @@ body{
 }
 
 .link-li{
-    padding-left: 40px;
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
@@ -75,6 +79,14 @@ body{
     color: #404bbf;
 }
 
+.li-item{
+    margin-right:  40px;
+}
+
+.li-item-li{
+    margin-right: 0;
+}
+
 .button{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -89,6 +101,10 @@ body{
 button{
     display: block;
     margin: 0 auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .button:hover,
@@ -153,11 +169,20 @@ button{
 }
 
 .heading{
+    margin-bottom: 8px;
     color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+}
+
+.li-text{
+    margin-right: 24px;
+}
+
+.li-text-item{
+    margin-right: 0;
 }
 
 .box-item{
@@ -187,19 +212,25 @@ button{
 h1,
 h2,
 h3,
+h4,
+h5,
+h6,
 p,
 ul{
     margin: 0;
 }
 
 .container { 
-    width: 1128px;
+    width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 }
 
-.header-container{
+.header{
     border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container{
     display: flex;
     align-items: center; 
     justify-content: space-between;
@@ -210,9 +241,12 @@ ul{
     padding-bottom: 120px;
 }
 
+.section-box{
+    padding: 188px 0;
+}
+
 .section-text{
-    padding-top: 120px;
-    padding-bottom: 81px;
+    padding: 120px 0;
 }
 
 .ul-portfolio{
@@ -235,7 +269,7 @@ ul{
     width: calc( ( 100% - 48px ) /3);
 }
 
-nav{
+.nav{
     display: flex;
     align-items: center;
 }
