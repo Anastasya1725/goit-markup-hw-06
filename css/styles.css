@@ -46,6 +46,26 @@ body{
     line-height: 1.2;
 }
 
+.ul-text{
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.ul-add{
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
 .link{
     padding-right: 40px;
     text-decoration: none;
@@ -191,8 +211,8 @@ button{
     background-color: #ffffff;
 }
 
-.link-item-li{
-    border-radius: 0px 0px 4px 4px;
+.link-item{
+    border-radius: 0 0 4px 4px;
 }
 
 .title{
@@ -296,7 +316,7 @@ img{
     list-style-type: none;
     display: flex;
     gap: 24px;
-    width: calc( ( 100% - 24px) /4);
+    width: calc( ( 100% - 72px) /4);
 }
 
 .name{
