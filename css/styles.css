@@ -73,6 +73,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: block;
 }
 
 .link-li{
@@ -148,7 +149,6 @@ button{
 }
 
 .text{
-    padding-top: 8px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -167,7 +167,7 @@ button{
 }
 
 .text-item{
-    padding-top: 16px;
+    max-width: 264px;
     color: #F4F4FD;
     background-color: #2e2f42;
     letter-spacing: 0.02em;
@@ -176,8 +176,6 @@ button{
 
 .logo-first-item{
     color: #F4F4FD;
-    display: inline-block;
-    margin-bottom: 16px;
 }
 
 .lowland{
@@ -296,7 +294,6 @@ ul{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 
 .nav{
@@ -324,8 +321,14 @@ img{
 }
 
 .heading-team{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
     text-align: center;
     margin-bottom: 8px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .text-team{
@@ -336,12 +339,16 @@ img{
     letter-spacing: 0.02em;
 }
 
-.container-footer{   
-    max-width: 264px;
-    margin-left: 156px;
-}
 
 .logo-item{
     display: inline-block;
     margin-bottom: 16px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    color: #4D5AE5;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
