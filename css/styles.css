@@ -23,6 +23,8 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo-first:focus,
@@ -76,12 +78,15 @@ body{
     display: block;
 }
 
+
 .link-li{
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-li:hover,
@@ -93,16 +98,22 @@ body{
 .link-first:hover,
 .link-first:focus{
     color: #404bbf;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 .link:hover,
 .link:focus{
     color: #404bbf;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .li-item{
     gap: 40px;
 }
+
 
 .button{
     font-family: "Roboto", sans-serif;
@@ -122,6 +133,8 @@ button{
     height: 56px;
     border: none;
     border-radius: 4px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover,
@@ -146,7 +159,23 @@ button{
 .box{
     color: #ffffff;
     background-color: #2e2f42;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
 }
+
+.hero-bg{
+    margin: 0 auto;
+    max-width: 1440px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+    url('../images/people-office\ 1.jpg');
+}
+    
 
 .text{
     font-weight: 400;
@@ -212,6 +241,8 @@ button{
 .link-item{
     border-radius: 0 0 4px 4px;
     width: calc((100% - 72px) / 4);
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
 }
 
 .title{
@@ -295,6 +326,35 @@ ul{
     border: 1px solid #e7e9fc;
     border-top: none;
 }
+.port-text{
+    top: 0;
+    left: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    background-color: #4D5AE5;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    padding: 40px 32px;
+}
+
+
+.port{
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio:hover .port-text,
+.portfolio:focus .port-text{
+    transform: translateY(0);
+}
 
 .nav{
     display: flex;
@@ -351,4 +411,97 @@ img{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.current{
+    position: relative;
+}
+
+.current::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    display: block;
+    height: 4px;
+    background-color: #404bbf;;
+    border-radius: 2px;
+}
+
+.icon{
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background: #f4f4fd;
+}
+
+
+.social-networks{
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.social-networks-link{
+    fill: #f4f4fd;
+}
+
+.network-icon{
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    background-color: #4D5AE5;
+    list-style-type: none;
+    border-radius: 50%;
+    margin-top: 8px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.network-icon:hover,
+.network-icon:focus{
+    background-color: #404BBF;
+}
+
+.media{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.media-icons{
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    background-color: #4D5AE5;
+    list-style-type: none;
+    border-radius: 50%;
+    margin-top: 8px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.media-icons:hover,
+.media-icons:focus{
+    background-color: #31D0AA;
+}
+
+.footer-media{
+    display: flex;
+ justify-content: center;
+ align-items: center;
 }
