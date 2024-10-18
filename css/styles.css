@@ -76,6 +76,8 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     display: block;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -124,6 +126,8 @@ body{
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 button{
@@ -133,8 +137,6 @@ button{
     height: 56px;
     border: none;
     border-radius: 4px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover,
@@ -172,8 +174,7 @@ button{
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
-      ),
-    url('../images/people-office\ 1.jpg');
+      ), url('../images/people-office\ 1.jpg');
 }
     
 
@@ -280,6 +281,7 @@ ul{
 
 .header{
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container{
@@ -325,7 +327,15 @@ ul{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.container-port:hover,
+.container-port:focus{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .port-text{
     top: 0;
     left: 0;
@@ -341,6 +351,8 @@ ul{
     height: 100%;
     transform: translateY(100%);
     padding: 40px 32px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -399,6 +411,26 @@ img{
     letter-spacing: 0.02em;
 }
 
+.team-list{
+    padding-top: 8px;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.li-link-team{
+    width: 100%;
+    height: 100%;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 
 .logo-item{
     display: inline-block;
@@ -425,16 +457,9 @@ img{
     width: 100%;
     display: block;
     height: 4px;
+    color: #404BBF;
     background-color: #404bbf;;
     border-radius: 2px;
-}
-
-.icon{
-    border: 1px solid #8e8f99;
-    border-radius: 4px;
-    width: 264px;
-    height: 112px;
-    background: #f4f4fd;
 }
 
 
@@ -453,21 +478,14 @@ img{
 .network-icon{
     width: 40px;
     height: 40px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
-    background-color: #4D5AE5;
-    list-style-type: none;
     border-radius: 50%;
-    margin-top: 8px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    list-style-type: none;;
 }
 
 
-.network-icon:hover,
-.network-icon:focus{
+.li-link-team:hover,
+.li-link-team:focus{
     background-color: #404BBF;
 }
 
@@ -478,15 +496,13 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
+    margin-bottom: 16px;
 }
 
 .media-icons{
-    width: 40px;
-    height: 40px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 24px;
     background-color: #4D5AE5;
     list-style-type: none;
     border-radius: 50%;
@@ -495,13 +511,51 @@ img{
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.media-icons:hover,
-.media-icons:focus{
-    background-color: #31D0AA;
+.icons-iteam{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    height: 112px;
+    background-color: #f4f4fd;
+    margin-bottom: 8px;
 }
 
-.footer-media{
+
+.container-footer{
     display: flex;
- justify-content: center;
- align-items: center;
+    align-items: baseline;
+}
+
+.footer-logo{
+    margin-right: 120px;
+}
+
+.footer-icons{
+    display: flex;
+    gap: 16px;
+    padding: 0;
+}
+
+.li-icons{
+    width: 40px;
+    height: 40px;
+}
+
+.li-link-footer{
+    width: 100%;
+    height: 100%;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.li-link-footer:hover,
+.li-link-footer:focus{
+    background-color: #31d0aa;
 }
