@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
-  <defs>
+  <>
     <symbol id="icon-facebook-1" viewBox="0 0 16 16">
       <path d="M10.66 2.66h1.47V.1C11.87.08 11 0 10 0 7.9 0 6.45 1.32 6.45 3.76V6H4.12v2.84h2.33V16H9.3V8.84h2.23L11.88 6H9.3V4.04c0-.82.22-1.38 1.36-1.38z"/>
     </symbol>
@@ -33,3 +33,5 @@
     </symbol>
   </defs>
 </svg>
+
+
