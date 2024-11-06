@@ -30,16 +30,16 @@
                 </ul>
             </address>
 
-        <button class="burger-btn" type="button">
+        <button class="burger-btn" type="button" data-menu-open>
         <svg class="burger-icon" width="24" height="24">
             <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
         </svg>
     </button>
             </div>
 
-        <div class= "container-menu mobile-menu">
-            <div class="container">
-                <button class="close-button-menu" type="button">
+        <div class= "mobile-menu"  data-menu>
+            <div class="container container-menu">
+                <button class="close-button-menu" type="button" data-menu-close>
                     <svg class="icon-menu-close" width="8" height="8">
                         <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
                     </svg>
@@ -59,7 +59,7 @@
                 </adress>
 
                 <ul class="mobile-menu-icons">
-                    <li class=" social-networks li-icons ">
+                    <li class="media-icons social-networks li-icons mob-item">
                         <a class="media-icons li-link-mobile" href="">
                         <svg class="social-networks-link social-networks-mobile" width="24" height="24">
                             <use href="./images/icons.svg#icon-instagram-2"></use>
@@ -98,12 +98,12 @@
             <section class="hero-bg">
                 <div class="container hero hero-mobile"> 
                     <h1 class="title-m">Effective Solutions for Your Business</h1>
-                    <button class="button button-mobile" type="button" data-menu-open>Order Service</button>
+                    <button class="button button-mobile" type="button" data-modal-open>Order Service</button>
                 </div>                   
                    </section>
 
-    <section class="">
-         <div class="container section-text">
+    <section class="section-text">
+         <div class="container">
                 <h2 class="visually-hidden">title</h2>
 
                 <ul class="ul-text li-text">
@@ -149,9 +149,8 @@
                     </li>
                     
                 </ul>
-                </div>
-    
-        </section> 
+            </div>
+    </section> 
 
         <section class="section-team">
             <div class="container">
@@ -320,12 +319,10 @@
             </div>         
          </section>
 
-         <section class="section">
+         <section class="section-port">
             <div class="container">
             <h2 class="title-item">Our Portfolio</h2>
-
                     <ul class="ul-portfolio">
-        
                         <li class="portfolio">
                             <div class="port">
                                 <picture>
@@ -476,19 +473,19 @@
                             <p class="text-port">Marketing</p>
                             </div>
                         </li>
-    
                     </ul> 
                 </div>
+            </div>
          </section>
     </main>
 
-    <!-- <footer class="lowland">
-        <div class="container container-footer">
-            <div class="footer-logo">
+    <footer class="lowland">
+        <div class="container footer-logo">
+            <div class="logo-basement">
             <a class="logo-item" href="./index.html">Web<span class="logo-first-item">Studio</span></a>
             <p class="text-item">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
         </div>
-            <div>
+            <div class="social-media">
                 <p class="media">Social media</p>
                 <ul class="footer-icons">
                     <li class="media-icons social-networks li-icons">
@@ -505,7 +502,7 @@
                         </svg>
                     </a>
                     </li>
-                    <li class="media-icons  li-icons">
+                    <li class="media-icons social-networks li-icons">
                         <a class="li-link-footer" href="">
                         <svg class="social-networks-link  social-networks-footer" width="24" height="24">
                             <use href="./images/icons.svg#icon-facebook-1"></use>
@@ -535,10 +532,10 @@
                 </form>
                </div>
         </div>
-    </footer> -->
-    <div class="backdro" data-menu>
+    </footer>
+    <div class="backdro" data-modal>
         <div class="modal">
-                <button class="button-close" type="button" data-menu-close>
+                <button class="button-close" type="button" data-modal-close>
                 <svg class="icon-close" width="8" height="8">
                     <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
                 </svg></button>
